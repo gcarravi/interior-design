@@ -23,16 +23,18 @@
 </head>
 
 <body>
+
     <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <img src="assets/images/logo-s.png" alt="Studio 13 logo" class="logo">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
                 aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+            </button> -->
             <div class="collapse navbar-collapse" id="mainNavbar">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
@@ -43,7 +45,6 @@
             </div>
         </div>
     </nav>
-
 
     <!-- Header -->
     <header id="header" class="section">
@@ -58,9 +59,10 @@
                 </div>
                 <div class="col-12 col-md-6 py-4">
                     <img src="assets/images/services-design.webp" class="card-img-top"
-                        alt="Interior designer working on her computer" style="max-width:75%;height:auto;display:block;margin:0 auto;">
+                        alt="Interior designer working on her computer"
+                        style="max-width:75%;height:auto;display:block;margin:0 auto;">
                 </div>
-                <div class="col-12 col-md-6 text-center pt-4">
+                <div class="col-12 col-md-6 text-center py-4">
                     <div>
                         <h3 class="sub-heading-color">Play in our cafe</h3>
                         <!-- this has been changed from h6 t h3, since we had already used h1 and h2, h2 was the next one in the hierarchy -->
@@ -109,11 +111,13 @@
                 </div>
                 <div class="col-12 col-md-6 py-4">
                     <img src="assets/images/services-colors.webp" class="card-img-top"
-                        alt="Boardwalk games cafe table by a window, stacks of boardgames can be seen on the table" style="max-width:75%;height:auto;display:block;margin:0 auto;">
+                        alt="Boardwalk games cafe table by a window, stacks of boardgames can be seen on the table"
+                        style="max-width:75%;height:auto;display:block;margin:0 auto;">
                 </div>
                 <div class="col-12 col-md-6 py-4">
                     <img src="assets/images/services-redesign.webp" class="card-img-top"
-                        alt="Boardwalk games cafe table by a window, stacks of boardgames can be seen on the table" style="max-width:75%;height:auto;display:block;margin:0 auto;">
+                        alt="Boardwalk games cafe table by a window, stacks of boardgames can be seen on the table"
+                        style="max-width:75%;height:auto;display:block;margin:0 auto;">
                 </div>
                 <div class="col-12 col-md-6 text-center pt-4">
                     <div>
@@ -145,26 +149,67 @@
                             informed at every stage of the project.
                             <br>
                             <br>
-                            Priced per project, please book an intro call for an initial conversation. 
+                            Priced per project, please book an intro call for an initial conversation.
                         </p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 py-4">
                     <img src="assets/images/services-renovate.webp" class="card-img-top"
-                        alt="Boardwalk games cafe table by a window, stacks of boardgames can be seen on the table" style="max-width:75%;height:auto;display:block;margin:0 auto;>
+                        alt="Boardwalk games cafe table by a window, stacks of boardgames can be seen on the table"
+                        style="max-width:75%;height:auto;display:block;margin:0 auto;">
                 </div>
             </div>
         </section>
+
         <!-- happy clients section -->
-        <section id="happy-clients" class="container section">
-            <p>Happy clients section</p>
+        <section id="happy-clients" class="section">
+            <div class="text-center my-4">
+                <h2 class="display-6">Happy Clients</h2>
+            </div>
+            <div id="carouselContent" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner py-4" role="listbox">
+                    <div class="carousel-item active text-center p-4">
+                        <p>“We recently completely renovated a three storey Edwardian terraced house. During the
+                            process, Lucy helped us with many, many interior design decisions. From choosing the
+                            mouldings through to colour schemes and furnishings, she did an exceptional job. She was
+                            helpful and patient and her design choices are outstanding. I highly recommend her for any
+                            project you may have.“</p>
+                    </div>
+                    <div class="carousel-item text-center p-4">
+                        <p>"Studio 13 was great! She understood exactly what we wamted when we did not know how
+                                to achieve it. She has a wonderfull eeye for colour and also undestranding and working
+                                with your budget. We would highly recommend her."</p>
+                    </div>
+                    <div class="carousel-item text-center p-4">
+                        <p>“My experience with Studio 13 has been exemplary. Lucy has worked with me on various
+                                rooms in two homes now, from kitchens to living spaces and bedrooms. I have clear ideas
+                                but am fazed by the number of choices. She has perfect taste and a talented eye for
+                                colour. She is also a brilliant project manager and extremely efficient. I would
+                                recommend her to anyone - and do.”</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselContent"
+                    data-bs-slide="prev" aria-label="Previous">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselContent"
+                    data-bs-slide="next" aria-label="Next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </section>
     </main>
 
     <!-- Footer / contact section -->
     <footer id="contact" class="mt-auto">
-        <div class="container section">
-            <p>Footer place holder</p>
+        <div class=" container section">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <h2 class="display-6">Contact us!</h2>
+                </div>    
+            </div>
         </div>
     </footer>
 
