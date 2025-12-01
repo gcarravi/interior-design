@@ -1,0 +1,134 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+/* CSS variables */
+:root {
+    --primary-font: 'Red-Hat-Display', sans-serif;
+    --secondary-font: 'Ephesis', sans-serif;
+    --primary-color: #E7ECEF; /* Platinum */
+    --secondary-color: #274C77; /* dask blue */
+    --highlight-color: #6096ba; /* Steel Blue */
+    --highlight-color-light: #a3cef1; /* Icy Blue*/
+    --footer-color:#8b8c89; /*Grey Olive */
+}
+
+
+/* Global styles */
+body {
+    font-family: var(--primary-font);
+    /* padding-top: 57.15px; pushes the top of the header down under fixed navbar */
+    background-color: var(--primary-color);
+    /* margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333; */
+}
+
+h1, h2, h3 {
+    font-family: var(--secondary-font); 
+    color: var(--secondary-color);
+}
+
+.sub-heading-color {
+    color: var(--secondary-color);
+}
+
+
+/* header */
+
+#header {
+    background:url(../images/home-page.jpg) no-repeat center center/cover;
+    height: 1000px; /*  o 600px con la otra foto */
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+/*  services */
+
+
+
+/* #services {
+    width: 100%;
+    margin: 20px auto;
+} */
+
+
+
+
+
+/* visually hide the text but keep it for accessibility*/
+
+/* show logo image inside the existing .navbar-brand while keeping the text for screen readers */
+/* .navbar-brand {
+    display: inline-block;
+    width: 160px;
+    height: 48px;
+    background-image: url("assets/images/logo.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-indent: -9999px;           /* visually hide the text but keep it for accessibility*/
+    /*overflow: hidden;
+}
+
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        width: 120px;
+        height: 40px;
+    }
+}  */
+
+
+
+#navbar {
+    color: #3b2f2f;
+    position: sticky;
+}
+
+
+.navbar-custom .nav-link {
+    color: #3B2F2F;
+}
+
+.navbar-custom .nav-link.active {
+    font-weight: bold;
+}
+
+.navbar {
+    position: sticky;
+    /* top: 0;
+    z-index: 1000; */
+}
+
+#navbar .logo {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+/* Footer / contact */
+#contact {
+    background-color: var(--footer-color);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+
+
+
+/* grid visualisation CSS for testing */
+
+.container, .row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
+}
