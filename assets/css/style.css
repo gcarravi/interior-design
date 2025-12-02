@@ -51,11 +51,10 @@ nav {
 }
 
 
-
 /* Hero background + overlay styles */
 .hero {
-    /* background: url('assets/images/hero.jpg') no-repeat center center; */
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/hero.jpg') no-repeat center center;
+    background: url('../images/hero.jpg') no-repeat center center;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/hero.jpg') no-repeat center center; */
     background-size: cover;
     position: relative;
     min-height: 60vh;
@@ -114,7 +113,6 @@ nav {
     color: var(--background-color);
 }
 
-
 /* Equal height for text and image sections */
 #services .col-md-6 {
     display: flex;
@@ -169,6 +167,15 @@ nav {
 
 
 /* footer styles */
+
+
+#footer {
+    background-color: lightgray;
+    padding-bottom: 3rem;
+}
+
+
+
 
 /* grid visualisation CSS for testing */
 
