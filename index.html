@@ -13,6 +13,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <!-- Bootstrap CSS link goes in the head -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -27,7 +28,8 @@
     <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo-resized.png" alt="Studio 13 logo" class="logo" width="30" height="30">
+                <!-- <img src="assets/images/logo/logo.png" alt="Studio 13 logo" class="logo" width="30" height="30"> -->
+                <img src="assets/images/logo-2.png" alt="Studio 13 logo" class="logo" width="30" height="30">
                 Studio 13
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -84,10 +86,11 @@
                         style="max-width:75%;height:auto;display:block;margin:0 auto;">
                 </div>
                 <!-- First Row, Second Column: Text -->
-                <div class="col-12 col-md-6 mb-4">
+                <div class="col-12 col-md-6 text-center mb-4">
                     <div>
-                        <h3 class="sub-heading-color">Design Session</h3>
-                        <!-- this has been changed from h6 t h3, since we had already used h1 and h2, h2 was the next one in the hierarchy -->
+                        <h3 class="card-title sub-heading-color">Design Session</h3>
+                        <hr>
+                        <!-- this has been changed from h6 to h3, since we had already used h1 and h2, h2 was the next one in the hierarchy -->
                         <p>Some clients don’t need a complete redesign of a room or an entire home. This option lets you
                             tap into two decades of interior design expertise only when you need it. It’s more like a
                             focused consultation than a full-scale design package — a chance to troubleshoot ideas, gain
@@ -118,6 +121,7 @@
                 <div class="col-12 col-md-6 text-center mb-4">
                     <div>
                         <h3 class="card-title sub-heading-color">Color Session</h3>
+                        <hr>
                         <!-- this has been changed from h6 t h3, since we had already used h1 and h2, h2 was the next one in the hierarchy -->
                         <p>If choosing colours for your home feels daunting, this service is designed to help you
                             navigate the many possibilities with confidence. Drawing on more than 20 years of guiding
@@ -156,6 +160,7 @@
                 <div class="col-12 col-md-6 text-center mb-4">
                     <div>
                         <h3 class="sub-heading-color">Redesign</h3>
+                        <hr>
                         <!-- this has been changed from h6 t h3, since we had already used h1 and h2, h2 was the next one in the hierarchy -->
                         <p>This service is ideal for clients who want to transform a room with an entirely fresh style
                             and atmosphere. You’ll receive a bespoke digital Design Pack, which can include a scaled
@@ -177,6 +182,7 @@
                 <div class="col-12 col-md-6 text-center mb-4">
                     <div>
                         <h3 class="card-title sub-heading-color">Renovate</h3>
+                        <hr>
                         <p>A comprehensive, tailor-made interior design service for larger projects such as renovations,
                             extensions, or major reconfigurations. The process is customised to your needs and can guide
                             you from the earliest design concepts through technical drawings, material selection,
@@ -213,51 +219,55 @@
         <section class="testimonials py-5">
             <div class="container">
                 <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" role="region"
-                aria-label="Testimonials" tabindex="0">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="testimonial text-center">
-                            <img src="assets/images/jane_smith.png" alt="Profile Picture of Jane Doe"
-                                class="rounded-circle mb-3 testimonial-image">
-                            <p>“We recently renovated a three-storey Edwardian terrace, and the Studio 13 team guided us
-                                through countless design decisions — from mouldings to colour schemes and furnishings.
-                                She was patient, helpful, and consistently delivered outstanding choices.”</p>
-                            <p>- Jane Doe</p>
+                    aria-label="Testimonials" tabindex="0">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="testimonial text-center">
+                                <img src="assets/images/jane_smith.png" alt="Profile Picture of Jane Doe"
+                                    class="rounded-circle mb-3 testimonial-image">
+                                <p>“We recently renovated a three-storey Edwardian terrace, and the Studio 13 team
+                                    guided us
+                                    through countless design decisions — from mouldings to colour schemes and
+                                    furnishings.
+                                    She was patient, helpful, and consistently delivered outstanding choices.”</p>
+                                <p>- Jane Doe</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial text-center">
+                                <img src="assets/images/john_doe.png" alt="Profile Picture of John Smith"
+                                    class="rounded-circle mb-3 testimonial-image">
+                                <p>"Studio 13 was great! They understood exactly what we wamted when we did not know how
+                                    to achieve it. They have a wonderfull eye for colour and also undestranding and
+                                    working
+                                    with your budget. We would highly recommend Studio 13."</p>
+                                <p>- John Smith</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial text-center">
+                                <img src="assets/images/emily_johnson.png" alt="Profile Picture of Emilty Johnson"
+                                    class="rounded-circle mb-3 testimonial-image">
+                                <p>“My experience with Studio 13 has been outstanding. Studio 13 has helped me design
+                                    multiple rooms across two homes, guiding my ideas and narrowing endless choices with
+                                    their excellent taste and eye for colour. They are efficient, organised, and
+                                    brilliant
+                                    project managers. I recommend Studio 13 to everyone.”</p>
+                                <p>- Emily Johnson</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="testimonial text-center">
-                            <img src="assets/images/john_doe.png" alt="Profile Picture of John Smith"
-                                class="rounded-circle mb-3 testimonial-image">
-                            <p>"Studio 13 was great! They understood exactly what we wamted when we did not know how
-                                to achieve it. They have a wonderfull eye for colour and also undestranding and working
-                                with your budget. We would highly recommend Studio 13."</p>
-                            <p>- John Smith</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="testimonial text-center">
-                            <img src="assets/images/emily_johnson.png" alt="Profile Picture of Emilty Johnson"
-                                class="rounded-circle mb-3 testimonial-image">
-                            <p>“My experience with Studio 13 has been outstanding. Studio 13 has helped me design
-                                multiple rooms across two homes, guiding my ideas and narrowing endless choices with
-                                their excellent taste and eye for colour. They are efficient, organised, and brilliant
-                                project managers. I recommend Studio 13 to everyone.”</p>
-                            <p>- Emily Johnson</p>
-                        </div>
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
             </div>
         </section>
 
@@ -319,8 +329,14 @@
     <footer id="footer" class="mt-auto">
         <div class="container section">
             <div class="row justify-content-center">
+
+                <!-- logo -->
+                <div class="col-12 col-md-6 col-xl-4 logo">
+                    <img src="assets/images/logo-2.png" alt="Studio 13 logo">
+                </div>
+
                 <!--contact info-->
-                <div class="col-12 col-md-6 col-xl-4">
+                <div class="col-12 col-md-6 col-xl-5 contact">
                     <address>
                         <strong><i class="fa-solid fa-location-dot"></i> Boardwalk Games</strong><br>
                         123 Boardwalk<br>
@@ -329,8 +345,7 @@
                     <p><i class="fa-solid fa-phone"></i> 012 345 6789<br>
                         <i class="fa-regular fa-paper-plane"></i> info@boardwalk-games.com
                     </p>
-                    <div class="social-links my-4">
-                        <!--Changed mt-4 to my-4 so it will apply margin at the top AND at the bottom of this div allowing more breadding space between the contact info and the opening times in mobile screens -->
+                    <div class="social-links mt-4">
                         <a href="https://www.instagram.com" target="_blank" rel="noopener"
                             aria-label="Visit our Instagram page (opens in a new tab)"><i
                                 class="fa-brands fa-instagram"></i></a>
@@ -345,21 +360,6 @@
             </div>
         </div>
     </footer>
-
-
-
-
-
-
-
-
-
-
-    <!-- <div class="container-fluid hero text-center">
-        <h1 class="display-4 fw-bold text-white">Studio 13</h1>
-        <p class="lead text-white-50 mb-4">Designing Spaces with Purpose.</p>
-        <a href="#" class="btn btn-light btn-lg">Contact Us</a>
-    </div> -->
 
 
     <!--Font Awesome Kit-->
