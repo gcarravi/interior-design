@@ -31,6 +31,11 @@ body {
     background-color: var(--background-color);
 }
 
+h1 {
+    font-family: 'Red Hat Display', sans-serif;
+    color: #E7ECEF;
+}
+
 h2 {
     font-family: 'Ephesis', sans-serif;
     font-weight:900;
@@ -42,7 +47,7 @@ h2 {
 }
 
 
-/* navbar styles */
+/* Navbar styles */
 
 nav {
     /* background-color: var(--background-color); */
@@ -74,12 +79,15 @@ nav {
     color: var(--background-color);
 }
 
-
-.navbar-brand img[src$="logo-2.png"] {
-    filter: invert(1) brightness(1.2);
-    -webkit-filter: invert(1) brightness(1.2);
+.navbar-brand img {
+    width: 85px;
+    height: 30px;
 }
 
+/* .navbar-brand img {
+    width: 60px;
+    height: 30px;
+} */
 
 /* Hero background + overlay styles */
 .hero {
@@ -94,9 +102,9 @@ nav {
 
 /* hero text color and heading font */
 .hero h1 {
-    font-family: 'Red Hat Display', sans-serif;
+    /* font-family: 'Red Hat Display', sans-serif; */
     font-weight: 700;
-    color: #E7ECEF;
+    /* color: #E7ECEF; */
 }
 
 .hero p.lead {
