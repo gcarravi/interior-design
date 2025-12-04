@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
 
-/* <!-- Google Font: Red Hat Display -->
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700;900&display=swap" rel="stylesheet"> */
-
-
 /* CSS variables */
 :root {
     --primary-font: 'Red-Hat-Display', sans-serif;
@@ -98,7 +94,7 @@ nav {
 
 /* hero text color and heading font */
 .hero h1 {
-    font-family: 'Red Hat Display', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
     color: #E7ECEF;
 }
