@@ -293,18 +293,37 @@ nav {
 }
 
 
+
+
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 344px; /*pick your preferred fixed height*/
+    }
+
+    /* .carousel-item > * {
+        max-height: 100%;
+    } */
+} 
+
+
+
+
+
+
+
+
 /* grid visualisation CSS for testing */
 
-.container, .row {
+/* .container, .row {
     border: 2px solid black;
-}
+} */
 
 /* .col-12 {
     border: 2px solid white;
     background-color: lightgray;
 } */
 
-.col-12 {
+/* .col-12 {
     border: 2px solid red;
     background-color: lightblue;
-}
+} */
