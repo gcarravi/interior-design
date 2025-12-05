@@ -213,6 +213,7 @@ p {
 #services p {
     font-size: 1rem;
     line-height: 1.6;
+    color: var(--primary-color);
 }
 
 /* background color to sections for visual separation */
@@ -375,8 +376,6 @@ form .form-label {
     padding-bottom: 1.5rem;
     /* small breathing room from the footer */
 }
-
-
 
 
 @media (max-width: 768px) {
