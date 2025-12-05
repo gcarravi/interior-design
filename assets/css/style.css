@@ -28,8 +28,8 @@ body {
 
 h1 {
     font-family: var(--primary-font);
-    color: var(--background-color);
-    /* color: #E7ECEF; */
+    /* color: var(--background-color); */
+    color: var(--primary-color);
 }
 
 h2 {
@@ -130,7 +130,7 @@ nav {
 }
 
 .hero p.lead {
-    color: #E7ECEF;
+    color: var(--primary-color);
     opacity: 0.95;
 }
 
