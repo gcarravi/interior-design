@@ -29,6 +29,7 @@
 
 body {
     background-color: var(--background-color);
+    
 }
 
 h1 {
@@ -77,18 +78,24 @@ h2 {
 
 /* Navbar styles */
 
-nav {
-    /* background-color: var(--background-color); */
-    background-color: var(--secondary-color);
+ nav {
+     background-color: var(--secondary-color);
 }
 
-.navbar-custom {
-    /* color: #3B2F2F; */
+/* Keeps navbar at the top of the page even if you scroll down */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+
+/*.navbar-custom {
     color: var(--background-color);
 }
 
 .navbar-custom .nav-link {
-    /* color: #3B2F2F; */
     color: var(--background-color);
 }
 
@@ -97,21 +104,16 @@ nav {
     font-weight: bold;
 }
 
-.navbar {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
 .navbar-brand {
     color: var(--background-color);
-}
+} */ 
 
 .navbar-brand img {
     width: 85px;
     height: 30px;
 }
 
+/* This is for the other logo. Delete if not used in the end */
 /* .navbar-brand img {
     width: 60px;
     height: 30px;
