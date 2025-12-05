@@ -29,7 +29,7 @@
 
 body {
     background-color: var(--background-color);
-    
+
 }
 
 h1 {
@@ -39,7 +39,7 @@ h1 {
 
 h2 {
     font-family: 'Ephesis', sans-serif;
-    font-weight:900;
+    font-weight: 900;
 }
 
 .section {
@@ -49,12 +49,16 @@ h2 {
 
 /* Buttons */
 
-.custom-button-filled {
+/* .custom-button-filled {
     border: 2px solid var(--secondary-color);
     background-color: var(--secondary-color);
-    /* color: var(--primary-color); */
     color: var(--background-color)
-    /* font-weight: bold; */
+} */
+
+.custom-button-filled {
+    border: 2px solid var(--background-color);
+    background-color: var(--background-color);
+    color: var(--secondary-color)
 }
 
 .custom-button-filled:hover {
@@ -78,8 +82,8 @@ h2 {
 
 /* Navbar styles */
 
- nav {
-     background-color: var(--secondary-color);
+nav {
+    background-color: var(--secondary-color);
 }
 
 /* Keeps navbar at the top of the page even if you scroll down */
@@ -106,7 +110,7 @@ h2 {
 
 .navbar-brand {
     color: var(--background-color);
-} */ 
+} */
 
 .navbar-brand img {
     width: 85px;
@@ -134,12 +138,17 @@ h2 {
 .hero h1 {
     /* font-family: 'Red Hat Display', sans-serif; */
     font-weight: 700;
-    /* color: #E7ECEF; */
+    color: var(--background-color);
 }
 
 .hero p.lead {
     color: #E7ECEF;
     opacity: 0.95;
+}
+
+#success h1,
+p {
+    color: var(--secondary-color);
 }
 
 .hero::before {
@@ -330,8 +339,10 @@ h2 {
 
 /* Match input + textarea background to page background */
 form .form-control {
-    background-color: #d3d3d3 !important;  /* lightgray */
-    border: 1px solid #aaa;               /* optional: softer border */
+    background-color: #d3d3d3 !important;
+    /* lightgray */
+    border: 1px solid #aaa;
+    /* optional: softer border */
 }
 
 /* Optional: change placeholder color for better visibility */
@@ -351,17 +362,33 @@ form .form-label {
 }
 
 
+/* Success page styling */
+
+/* make the main area take remaining vertical space and center its contents */
+#success {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+    /* small breathing room from the nav */
+    padding-bottom: 1.5rem;
+    /* small breathing room from the footer */
+}
+
+
 
 
 @media (max-width: 768px) {
     .carousel-item {
-        height: 344px; /*pick your preferred fixed height*/
+        height: 344px;
+        /*pick your preferred fixed height*/
     }
 
     /* .carousel-item > * {
         max-height: 100%;
     } */
-} 
+}
 
 
 
