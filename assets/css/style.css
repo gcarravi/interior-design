@@ -4,7 +4,7 @@
 
 /* CSS variables */
 :root {
-    --primary-font: 'Red-Hat-Display', sans-serif;
+    --primary-font: 'Red Hat Display', sans-serif;
     --secondary-font: 'Ephesis', sans-serif;
 
     --primary-color: #E7ECEF;
@@ -16,12 +16,6 @@
     --grey-olive: #8B8C89;
     /* Grey olive*/
     --background-color: lightgray;
-
-    /* ocean serenity */
-    /* Verde oscuro */
-    --dark-green: #124559;
-    --medium-green: #124559;
-    --green-background: #dad7cd;
 }
 
 
@@ -33,12 +27,13 @@ body {
 }
 
 h1 {
-    font-family: 'Red Hat Display', sans-serif;
-    color: #E7ECEF;
+    font-family: var(--primary-font);
+    color: var(--background-color);
+    /* color: #E7ECEF; */
 }
 
 h2 {
-    font-family: 'Ephesis', sans-serif;
+    font-family: var(--secondary-font);
     font-weight: 900;
 }
 
@@ -132,13 +127,6 @@ nav {
     min-height: 60vh;
     display: flex;
     align-items: center;
-}
-
-/* hero text color and heading font */
-.hero h1 {
-    /* font-family: 'Red Hat Display', sans-serif; */
-    font-weight: 700;
-    color: var(--background-color);
 }
 
 .hero p.lead {
@@ -315,7 +303,7 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--secondary-color);
-    font-family: 'Ephesis', sans-serif;
+    font-family: var(--secondary-font);
     font-size: 2rem;
     font-weight: 500;
     letter-spacing: 1px;
