@@ -46,6 +46,34 @@ h2 {
     /*prevent navbar overlap*/
 }
 
+/* Buttons */
+
+.custom-button-filled {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    /* color: var(--primary-color); */
+    color: var(--background-color)
+    /* font-weight: bold; */
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--icy-blue);
+    background-color: var(--icy-blue);
+    color: rgb(63, 58, 58);
+}
+
+.custom-button-outline {
+    border: 3px solid var(--secondary-color);
+    padding: 7px 25px;
+    color: var(--secondary-color)
+}
+
+.custom-button-outline:hover {
+    background-color: var(--secondary-color);
+    color: var(--background-color)
+}
+
+
 
 /* Navbar styles */
 
@@ -126,9 +154,9 @@ nav {
     z-index: 1;
 }
 
-.btn {
+/* .btn {
     color: #3B2F2F;
-}
+} */
 
 
 /* Services Section Styles */
@@ -294,6 +322,30 @@ nav {
 
 .project-box:hover .overlay-text {
     opacity: 0;
+}
+
+/* Form styling */
+
+/* Match input + textarea background to page background */
+form .form-control {
+    background-color: #d3d3d3 !important;  /* lightgray */
+    border: 1px solid #aaa;               /* optional: softer border */
+}
+
+/* Optional: change placeholder color for better visibility */
+form .form-control::placeholder {
+    color: #555;
+}
+
+form .form-control:focus {
+    background-color: #d3d3d3 !important;
+    box-shadow: none;
+    border-color: #777;
+}
+
+/* Form label text color */
+form .form-label {
+    color: #274C77 !important;
 }
 
 
