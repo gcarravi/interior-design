@@ -118,7 +118,7 @@ Each page contains custom meta descriptions and relevant industry keywords such 
 These help improve organic ranking for interior design-related search queries.
 
 
-## Testing
+## Testing And Validation
 
 ### Manual Testing
 
@@ -128,6 +128,7 @@ These help improve organic ranking for interior design-related search queries.
 - Typography, spacing, and layout render consistently across Chrome, Firefox, Safari, and Edge
 - All interactive elements (buttons, inputs) are keyboard accessible
 - All images have appropriate `alt` text
+
 
 #### Automated Testing
 
@@ -141,59 +142,67 @@ Solution: all the jpg and png pics were converted to webp format, much more perf
 
 ![Lighthouse initial report](assets/images/performance2.jpg)
 
+These scores reflect a well-optimized and accessible site. Performance may vary slightly across networks or browsers.
 
 
 #### W3C HTML validator 
 
 used [W3C Nu HTML Checker](https://validator.w3.org/)
 
-please refer to the w3c-html-tests folder in the the documentation folder to view detailed tests before and after changes
+-> [index.html]: Passed all tests
 
--> [index.html](documentation/w3c-html-test/index-html-test-post.pdf): Passed all tests
+-> [projects.html]: Passed all tests
 
--> [about-us.html](documentation/w3c-html-test/about-us-html-test-post.pdf): Passed all tests
+-> [contact.html]: 
 
--> [subsidiaries.html](documentation/w3c-html-test/subsidiaries-html-test-post.pdf): Passed all test
+BEFORE: Initial execution showed the following error:
 
--> [corporate-responsibility.html](documentation/w3c-html-test/corporate-responsibility-html-test-post.pdf): Passed all tests
+![HTML validation contact.html page initial run](assets/images/html-validation-contact-page-before.jpg)
 
--> [investor-relations.html](documentation/w3c-html-test/investor-relations-html-test-post.pdf): Passed all tests
+AFTER: After fixing the errors shown:
 
--> [contact-us.html](documentation/w3c-html-test/contact-us-html-test-post.pdf): Passed all tests
+![HTML validation contact.html page second run](assets/images/html-validation-contact-page-after.jpg)
 
--> [careers.html](documentation/w3c-html-test/careers-html-test-post.pdf): Passed all tests
+-> [success.html]:
 
--> [under-construction.html](documentation/w3c-html-test/under-construction-html-test-post.pdf): Passed all tests
+BEFORE: Initial execution showed the following error:
+
+![HTML validation success.html page second run](assets/images/html-validation-success-page-before.jpg)
+
+AFTER: After fixing the errors shown:
+
+![HTML validation success.html page second run](assets/images/html-validation-success-page-after.jpg)
 
 
 
 #### W3C CSS Validator
 
-Used [W3C Schools CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmattds825.github.io%2FWayne-Enterprises%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+Used [W3C Schools CSS validator](https://jigsaw.w3.org/css-validator/)
 
-![CSS validation test](documentation/css-validator-test-result.png)
+Stylesheets passed validation including use of valid CSS custom properties.
+
+![CSS validation test](assets/images/CSS-validator.jpg)
 
 
+## Deployment
+
+Site deployed using [GitHub Pages](https://pages.github.com/) at [Studio 13 - Interior Designers](https://github.com/gcarravi/interior-design)
+
+-> **Steps to deploy a website using GitHub Pages**
+
+1. Open your github repositroy
+2. Open the settings
+3. Select 'Pages' from the side menu
+4. Select the branch you want to deply from the dropdown
 
 
-### Validation
-
-- **HTML Validation**: All pages validated through the [W3C Markup Validation Service](https://validator.w3.org/). No critical errors found. Minor warnings are intentional due to form structure without server-side submission.
-- **CSS Validation**: Stylesheets passed validation via [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), including use of valid CSS custom properties.
-- **Lighthouse Testing**: Conducted in Chrome DevTools on desktop.
-- (on average)
-  - Performance: 73-98
-  - Accessibility: 95
-  - Best Practices: 100
-  - SEO: 100
-  ![lighthouse screenshot](assets/readme-imgs/lighthouse-sc.png)
-  These scores reflect a well-optimized and accessible site. Performance may vary slightly across networks or browsers.
 
 ## Getting Started
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/orlando-frames.git
+1. Open the folder where you would like to clone the project
+2. Open a terminal window
+3. Enter the following command: <code>git clone https://github.com/gcarravi/interior-design.git</code>
+
 
 ## License
 
