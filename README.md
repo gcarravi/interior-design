@@ -1,59 +1,122 @@
-# Orlando Frames – Custom Framing Website
+# Studio 13 – Interior Design Website
 
-![screenshot of homepage and CTA button](assets/readme-imgs/home-sc.png)
+![screenshot of homepage and CTA button](assets/images/home-page.jpg)
 
-Welcome to Orlando Frames, a custom art framing website created for a small, independent business based in Leyton, East London. This project was designed to showcase the company’s services, answer common questions, and allow visitors to request personalized framing quotes through a clean, accessible, and responsive interface.
+Studio 13 is a contemporary interior design website created to showcase the services, portfolio, and approach of a modern design studio. The site focuses on clarity, elegance, and accessibility, giving visitors a clean overview of design offerings — from colour consultations to large-scale renovations — while highlighting real projects and testimonials.
+
+This project was built as part of a personal portfolio and emphasizes strong front-end structure, responsive design, and a client-focused user experience.
 
 ## Project Overview
 
-Orlando Frames is a multi-page responsive website built using HTML5, CSS3, and Bootstrap 5. The site prioritizes usability, visual clarity, and a strong sense of community. With a warm, approachable color palette and contemporary typography, the design reflects the tone and values of a bespoke local business.
+Studio 13 is a responsive multi-page website built using HTML5, CSS3, and Bootstrap 5.
+It features a calm, modern design aesthetic inspired by professional interior design studios: clean spacing, large imagery, soft colours, and an editorial layout style.
 
-The design decisions were shaped closely by the client's brief, which emphasized:
-- A **non-commercial, personal tone** to communicate craftsmanship over mass production
-- Avoiding features like a gallery or e-commerce components to retain a **bespoke, word-of-mouth feel**
-- Use of specific **warm color tones** and **distinctive typefaces** (Syne and Urbanist) to evoke a modern yet welcoming aesthetic
-![example showcasing client's color palette](assets/readme-imgs/how-it-works-sc.png)
+The design was driven by the following goals:
 
-This direction informed the visual language of the site: clean, uncluttered, and centered around trust and approachability rather than promotion or sales.
+- Present Studio 13 as **professional, trustworthy, and design-led**
+- Showcase real services with clear explanations and pricing
+- Highlight authentic **client testimonials** to build trust
+- Offer a simple, elegant **project gallery** focused on visual impact
+- Ensure easy navigation through a smooth, responsive layout
+
+The result is a polished, user-friendly experience that reflects the studio’s values: creativity, functionality, and purpose-driven design.
 
 ## Pages Included
 
-- `index.html` – Home page introducing the brand with a clear call to action
-![index page further down](assets/readme-imgs/home-sc-box.png)
-- `about.html` – About page detailing the company story and values
-![about us page email sign up section](assets/readme-imgs/email-signup.png)
-- `quote.html` – Quote request form with field validation and structured layout
-![form enquiry submission page](assets/readme-imgs/get-a-quote.png)
-- `faqs.html` – Frequently Asked Questions page to assist customers
-![faq page](assets/readme-imgs/faq-sc.png)
-- `success.html` – Confirmation page displayed after successful form submission
-![success page](assets/readme-imgs/success.png)
+
+`index.html` – <span style="font-size:1.25em;">Home page</span>
+
+The main landing page featuring:
+
+- Hero banner introducing the Studio 13 brand and with a clear call to action
+- Services section with detailed descriptions and pricing
+- Testimonials displayed through a Bootstrap carousel
+- Links to contact form and project gallery
+
+
+`projects.html` – <span style="font-size:1.25em;">Projects / Portfolio</span>
+
+A grid-based gallery showcasing completed projects, each represented by a large cover image with overlay text.
+
+`contact.html` – <span style="font-size:1.25em;">Contact Form</span>
+
+Designed for new enquiries, allowing visitors to request information or start a design conversation.
+
+
+## Design
+
+### Color Palette
+
+For this project, the colour palette was designed to feel calm, modern, and refined. The combination of soft neutrals and cool blue tones enhances clarity and readability while conveying a sense of trust, expertise, and understated elegance. These colours were chosen to reflect the clean, contemporary aesthetic that defines Studio 13’s design philosophy.
+
+The colors used are:
+- #E7ECEF;
+- #274C77;
+- #A3CEF1;
+- #8B8C89;
+- #D3D3D3;
+
+![Studio 13 Color Pallete](assets/images/collage-small.jpg)
+
+
+### Typography 
+
+I used Google Fonts to import the fonts for the site
+
+The Primary font was **Red Hat Display**
+
+![Red Hat Display Font Preview](assets/images/red-hat-display.jpg)
+
+- Usage: Body text, navigation menus, and call-to-action buttons.
+- Reason: Red Hat Display is a serif font that combines elegance and modernity, giving a distinguished look to the site.
+
+The Secondary font was **Ephesis**
+
+![Ephesis Font Preview](assets/images/ephesis.jpg)
+
+- Usage: Body text, detailed descriptions, and secondary content.
+- Reason: Ephesis is a sleek, sans-serif font that contrats with Red Hat Display, offering elegance and distintion.
+
+### Imagery
+
+Because the website represents a professional interior design practice, the imagery showcases real residential and commercial spaces that demonstrate Studio 13’s approach to style, functionality, and atmosphere. High-resolution, well-composed images were selected to create impact while maintaining visual balance, ensuring they enhance rather than distract from the clean and accessible page layout.
+
 
 ## Technologies Used
 
 - HTML5 – Semantic markup for accessibility and SEO
 - CSS3 – Custom styling and responsive layout
-- Bootstrap 5 – Grid system, responsive design utilities, forms, and components
+- Bootstrap 5 – Grid system, responsive design utilities, forms, navbar and carousel
 - Google Fonts – Syne and Urbanist for strong, modern typography
+- Font Awesome – Icons for contact details and social links
+- Responsive Images – WebP format for optimized performance
+- Favicon.io – Auto-generated favicon set
 - CSS Variables – For consistent theming and style management
 
 ## Implementation Notes
 
-- Semantic HTML used throughout for screen readers and search engines
-- All pages include custom meta descriptions tailored for local search relevance
-- Bootstrap’s grid and spacing utilities were combined with custom CSS for layout control
-- Quote form uses side-by-side input fields via Bootstrap’s `.row` and `.col` structure
-- Custom buttons styled with padding, font scaling, and hover effects
-- Responsive behavior refined through media queries
-![example of mobile responsiveness on homepage](assets/readme-imgs/drop-in-mobile.png)
-- Typography and color controlled via CSS custom properties for consistency
-- Focus on clean alignment, spacing, and visual rhythm across all devices
-- The client emphasized a **non-commercial feel**, which led to the decision to exclude a gallery page. This decision helps preserve the **personal, bespoke nature** of the business, ensuring that the site is **not product-driven** but service-focused, with a strong emphasis on personal interaction.
-- The **warm color scheme** and use of **Syne and Urbanist fonts** were chosen specifically to evoke a welcoming, modern, and approachable atmosphere, aligning with the client’s vision of creating a **handcrafted, local brand**.
+- Fully responsive layout using Bootstrap’s grid system
+- Semantic HTML with accessibility considerations (alt text, aria labels)
+- Smooth mobile navigation — JavaScript ensures navbar collapses on in-page link click
+- Testimonials use a keyboard-accessible carousel
+- Interior design service descriptions are structured for readability and SEO
+- Colour palette provides a clean, understated feel suitable for a design studio
+- CSS custom classes allow consistent spacing, headings, and imagery styling
+- High-quality project imagery presented with hover overlay effects in the portfolio
+
 
 ## SEO Optimization
 
-Unique meta descriptions were written for every page, highlighting the business's local focus and framing expertise. These descriptions aim to improve organic search visibility for keywords such as “custom framing in Leyton” and “bespoke picture frames East London.”
+Each page contains custom meta descriptions and relevant industry keywords such as:
+
+- interior design
+- home renovation
+- space planning
+- colour consultation
+- luxury design
+
+These help improve organic ranking for interior design-related search queries.
+
 
 ## Testing
 

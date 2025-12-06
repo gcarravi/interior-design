@@ -118,7 +118,7 @@ nav {
 
 /* Hero background + overlay styles */
 .hero {
-    background: url('../images/hero.webp') no-repeat center center;
+    background: url('../imagess/hero.webp') no-repeat center center;
     /* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/hero.jpg') no-repeat center center; */
     background-size: cover;
     position: relative;
