@@ -132,11 +132,6 @@ nav {
     opacity: 0.95;
 }
 
-#success h1,
-p {
-    color: var(--secondary-color);
-}
-
 .hero::before {
     content: "";
     position: absolute;
@@ -230,8 +225,27 @@ p {
 }
 
 
-/* footer styles */
+/* Success Page */
 
+/* make the main area take remaining vertical space and center its contents */
+#success {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+    /* small breathing room from the nav */
+    padding-bottom: 1.5rem;
+    /* small breathing room from the footer */
+}
+
+#success h1,
+p {
+    color: var(--secondary-color);
+}
+
+
+/* footer styles */
 
 #footer {
     background-color: var(--secondary-color);
