@@ -45,9 +45,9 @@ Designed for new enquiries, allowing visitors to request information or start a 
 
 ## Design
 
-### Color Palette
+### Color Pallete
 
-For this project, the colour palette was designed to feel calm, modern, and refined. The combination of soft neutrals and cool blue tones enhances clarity and readability while conveying a sense of trust, expertise, and understated elegance. These colours were chosen to reflect the clean, contemporary aesthetic that defines Studio 13’s design philosophy.
+For this project, the colour pallete was designed to feel calm, modern, and refined. The combination of soft neutrals and cool blue tones enhances clarity and readability while conveying a sense of trust, expertise, and understated elegance. These colours were chosen to reflect the clean, contemporary aesthetic that defines Studio 13’s design philosophy.
 
 The colors used are:
 - #E7ECEF;

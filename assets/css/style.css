@@ -7,15 +7,12 @@
     --primary-font: 'Red Hat Display', sans-serif;
     --secondary-font: 'Ephesis', sans-serif;
 
-    --primary-color: #E7ECEF;
-    /* Platinum */
-    --secondary-color: #274C77;
-    /* dask blue */
-    --icy-blue: #A3CEF1;
-    /* Icy blue*/
-    --grey-olive: #8B8C89;
-    /* Grey olive*/
-    --background-color: lightgray;
+    --primary-color: #E7ECEF;       /* Platinum */
+    --secondary-color: #274C77;     /* dask blue */
+    --icy-blue: #A3CEF1;            /* Icy blue*/
+    --grey-olive: #8B8C89;          /* Grey olive*/
+    --background-color: #D3D3D3;    /* Lightgray*/
+    --lightblue-color: #6096ba;     /* light-blue */
 }
 
 /* Global styles */
@@ -26,7 +23,6 @@ body {
 
 h1 {
     font-family: var(--primary-font);
-    /* color: var(--background-color); */
     color: var(--primary-color);
 }
 
@@ -36,17 +32,10 @@ h2 {
 }
 
 .section {
-    padding-top: 4rem;
-    /*prevent navbar overlap*/
+    padding-top: 4rem;  /*prevent navbar overlap*/
 }
 
 /* Buttons */
-
-/* .custom-button-filled {
-    border: 2px solid var(--secondary-color);
-    background-color: var(--secondary-color);
-    color: var(--background-color)
-} */
 
 .custom-button-filled {
     border: 2px solid var(--background-color);
@@ -86,25 +75,6 @@ nav {
     z-index: 1000;
 }
 
-
-
-/*.navbar-custom {
-    color: var(--background-color);
-}
-
-.navbar-custom .nav-link {
-    color: var(--background-color);
-}
-
-.navbar-custom .nav-link.active {
-    color: var(--background-color);
-    font-weight: bold;
-}
-
-.navbar-brand {
-    color: var(--background-color);
-} */
-
 .navbar-brand img {
     width: 85px;
     height: 30px;
@@ -116,10 +86,10 @@ nav {
     height: 30px;
 } */
 
+
 /* Hero background + overlay styles */
 .hero {
     background: url('../images/hero.webp') no-repeat center center;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/hero.jpg') no-repeat center center; */
     background-size: cover;
     position: relative;
     min-height: 60vh;
@@ -145,10 +115,6 @@ nav {
     position: relative;
     z-index: 1;
 }
-
-/* .btn {
-    color: #3B2F2F;
-} */
 
 
 /* Services Section Styles */
@@ -181,8 +147,6 @@ nav {
 #services img {
     width: 100%;
     height: 100%;
-    /* width:200px;
-    height: 200px; */
     object-fit: cover;
     /* NO STRETCHING */
 }
@@ -199,18 +163,13 @@ nav {
 
 /* background color to sections for visual separation */
 #services .col-md-6 {
-    /* background-color: var(--secondary-color); */
-    background-color: #6096ba;
+    background-color: var(--lightblue-color);
     color: var(--primary-color);
     padding: 20px;
 }
 
 
 /* Testimonials Section */
-
-/* .testimonials {
-    background: url(../images/happy-clients-5.jpg) no-repeat center/cover;
-} */
 
 /* Set the size of the testimonial images */
 .testimonial-image {
@@ -220,8 +179,7 @@ nav {
 
 /* Applies rounded corners to images with the 'rounded-image' class. Adjust the border-radius value to control the roundness. */
 .rounded-image {
-    border-radius: 15px;
-    /* Adjust the px value as needed */
+    border-radius: 15px;    /* Adjust the px value as needed */
 }
 
 
@@ -289,7 +247,7 @@ p {
 }
 
 
-/* Our Projects Section */
+/* Projects Section */
 
 /* Positioning container */
 .project-box {
