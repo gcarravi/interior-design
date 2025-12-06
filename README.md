@@ -123,15 +123,57 @@ These help improve organic ranking for interior design-related search queries.
 ### Manual Testing
 
 - All internal navigation links work correctly across all screen sizes and devices
-- Quote form prevents submission if required fields are left empty (native HTML5 validation)
+- Contact Us form prevents submission if required fields are left empty (native HTML5 validation)
 - Responsive layout tested on mobile (320px), tablet (768px), and desktop (1440px+) devices
 - Typography, spacing, and layout render consistently across Chrome, Firefox, Safari, and Edge
 - All interactive elements (buttons, inputs) are keyboard accessible
 - All images have appropriate `alt` text
 
-### Automated Testing
+#### Automated Testing
 
 - Lighthouse (Performance, Accesibility and Best Pratices)
+
+Innitial report showed low performance ratings  as shown below:
+
+![Lighthouse initial report](assets/images/performance1.jpg)
+
+Solution: all the jpg and png pics were converted to webp format, much more performance.
+
+![Lighthouse initial report](assets/images/performance2.jpg)
+
+
+
+#### W3C HTML validator 
+
+used [W3C Nu HTML Checker](https://validator.w3.org/)
+
+please refer to the w3c-html-tests folder in the the documentation folder to view detailed tests before and after changes
+
+-> [index.html](documentation/w3c-html-test/index-html-test-post.pdf): Passed all tests
+
+-> [about-us.html](documentation/w3c-html-test/about-us-html-test-post.pdf): Passed all tests
+
+-> [subsidiaries.html](documentation/w3c-html-test/subsidiaries-html-test-post.pdf): Passed all test
+
+-> [corporate-responsibility.html](documentation/w3c-html-test/corporate-responsibility-html-test-post.pdf): Passed all tests
+
+-> [investor-relations.html](documentation/w3c-html-test/investor-relations-html-test-post.pdf): Passed all tests
+
+-> [contact-us.html](documentation/w3c-html-test/contact-us-html-test-post.pdf): Passed all tests
+
+-> [careers.html](documentation/w3c-html-test/careers-html-test-post.pdf): Passed all tests
+
+-> [under-construction.html](documentation/w3c-html-test/under-construction-html-test-post.pdf): Passed all tests
+
+
+
+#### W3C CSS Validator
+
+Used [W3C Schools CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmattds825.github.io%2FWayne-Enterprises%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+![CSS validation test](documentation/css-validator-test-result.png)
+
+
 
 
 ### Validation
