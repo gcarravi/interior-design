@@ -118,7 +118,7 @@ nav {
 
 /* Hero background + overlay styles */
 .hero {
-    background: url('../images/hero.jpg') no-repeat center center;
+    background: url('../images/hero.webp') no-repeat center center;
     /* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/hero.jpg') no-repeat center center; */
     background-size: cover;
     position: relative;
@@ -261,13 +261,17 @@ p {
 }
 
 /* make the black logo white (CSS only) */
-#footer img[src$="logo-2.png"] {
+#footer img[src$="logo-2.webp"] {
     filter: invert(1) brightness(1.2);
     -webkit-filter: invert(1) brightness(1.2);
 }
 
 #footer .contact {
     align-content: center;
+}
+
+#footer .contact p {
+    color: var(--background-color);
 }
 
 
@@ -374,11 +378,6 @@ form .form-label {
         max-height: 100%;
     } */
 }
-
-
-
-
-
 
 
 

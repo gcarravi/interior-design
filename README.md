@@ -66,6 +66,11 @@ Unique meta descriptions were written for every page, highlighting the business'
 - All interactive elements (buttons, inputs) are keyboard accessible
 - All images have appropriate `alt` text
 
+### Automated Testing
+
+- Lighthouse (Performance, Accesibility and Best Pratices)
+
+
 ### Validation
 
 - **HTML Validation**: All pages validated through the [W3C Markup Validation Service](https://validator.w3.org/). No critical errors found. Minor warnings are intentional due to form structure without server-side submission.
