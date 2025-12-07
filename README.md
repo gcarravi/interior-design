@@ -56,7 +56,7 @@ The colors used are:
 - #8B8C89;
 - #D3D3D3;
 
-![Studio 13 Color Pallete](assets/images/collage-small.jpg)
+![Studio 13 Color Pallete](assets/images/collage-small.webp)
 
 
 ### Typography 
@@ -65,14 +65,14 @@ I used Google Fonts to import the fonts for the site
 
 The Primary font was **Red Hat Display**
 
-![Red Hat Display Font Preview](assets/images/red-hat-display.jpg)
+![Red Hat Display Font Preview](assets/images/red-hat-display.webp)
 
 - Usage: Body text, navigation menus, and call-to-action buttons.
 - Reason: Red Hat Display is a serif font that combines elegance and modernity, giving a distinguished look to the site.
 
 The Secondary font was **Ephesis**
 
-![Ephesis Font Preview](assets/images/ephesis.jpg)
+![Ephesis Font Preview](assets/images/ephesis.webp)
 
 - Usage: Body text, detailed descriptions, and secondary content.
 - Reason: Ephesis is a sleek, sans-serif font that contrats with Red Hat Display, offering elegance and distintion.
@@ -136,11 +136,11 @@ These help improve organic ranking for interior design-related search queries.
 
 Innitial report showed low performance ratings  as shown below:
 
-![Lighthouse initial report](assets/images/performance1.jpg)
+![Lighthouse initial report](assets/images/performance1.webp)
 
 Solution: all the jpg and png pics were converted to webp format, much more performance.
 
-![Lighthouse initial report](assets/images/performance2.jpg)
+![Lighthouse initial report](assets/images/performance2.webp)
 
 These scores reflect a well-optimized and accessible site. Performance may vary slightly across networks or browsers.
 
@@ -157,21 +157,21 @@ used [W3C Nu HTML Checker](https://validator.w3.org/)
 
 BEFORE: Initial execution showed the following error:
 
-![HTML validation contact.html page initial run](assets/images/html-validation-contact-page-before.jpg)
+![HTML validation contact.html page initial run](assets/images/html-validation-contact-page-before.webp)
 
 AFTER: After fixing the errors shown:
 
-![HTML validation contact.html page second run](assets/images/html-validation-contact-page-after.jpg)
+![HTML validation contact.html page second run](assets/images/html-validation-contact-page-after.webp)
 
 -> [success.html]:
 
 BEFORE: Initial execution showed the following error:
 
-![HTML validation success.html page second run](assets/images/html-validation-success-page-before.jpg)
+![HTML validation success.html page second run](assets/images/html-validation-success-page-before.webp)
 
 AFTER: After fixing the errors shown:
 
-![HTML validation success.html page second run](assets/images/html-validation-success-page-after.jpg)
+![HTML validation success.html page second run](assets/images/html-validation-success-page-after.webp)
 
 
 
@@ -181,7 +181,7 @@ Used [W3C Schools CSS validator](https://jigsaw.w3.org/css-validator/)
 
 Stylesheets passed validation including use of valid CSS custom properties.
 
-![CSS validation test](assets/images/CSS-validator.jpg)
+![CSS validation test](assets/images/CSS-validator.webp)
 
 
 ## Deployment
