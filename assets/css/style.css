@@ -60,8 +60,6 @@ h2 {
     color: var(--background-color)
 }
 
-
-
 /* Navbar styles */
 
 nav {
@@ -79,13 +77,6 @@ nav {
     width: 85px;
     height: 30px;
 }
-
-/* This is for the other logo. Delete if not used in the end */
-/* .navbar-brand img {
-    width: 60px;
-    height: 30px;
-} */
-
 
 /* Hero background + overlay styles */
 .hero {
@@ -203,7 +194,7 @@ p {
 }
 
 
-/* footer styles */
+/* Footer styles */
 
 #footer {
     background-color: var(--secondary-color);
@@ -215,7 +206,6 @@ p {
 
 #footer .social-links i {
     color: var(--background-color);
-    /* color: black; */
     font-size: 1.9rem;
     -webkit-transition: color 0.3s ease-in-out;
     -o-transition: color 0.3s ease-in-out;
@@ -343,7 +333,6 @@ form .form-label {
 @media (max-width: 768px) {
     .carousel-item {
         height: 344px;
-        /*pick your preferred fixed height*/
     }
 
     /* .carousel-item > * {
