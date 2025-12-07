@@ -118,6 +118,24 @@ Each page contains custom meta descriptions and relevant industry keywords such 
 These help improve organic ranking for interior design-related search queries.
 
 
+## Wireframes
+
+### Desktop & laptop
+
+![Wireframe desktop and laptop](assets/images/wireframe-laptop.jpg)
+
+
+### Tablet
+
+![Wireframe tablet](assets/images/wireframe-tablet.jpg)
+
+
+### Mobile
+
+![Wireframe tablet](assets/images/wireframe-mobile.jpg)
+
+
+
 ## Testing And Validation
 
 ### Manual Testing
