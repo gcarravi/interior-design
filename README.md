@@ -122,17 +122,17 @@ These help improve organic ranking for interior design-related search queries.
 
 ### Desktop & laptop
 
-![Wireframe desktop and laptop](assets/images/wireframe-laptop.jpg)
+![Wireframe desktop and laptop](assets/images/wireframe-laptop.JPG)
 
 
 ### Tablet
 
-![Wireframe tablet](assets/images/wireframe-tablet.jpg)
+![Wireframe tablet](assets/images/wireframe-tablet.JPG)
 
 
 ### Mobile
 
-![Wireframe tablet](assets/images/wireframe-mobile.jpg)
+![Wireframe tablet](assets/images/wireframe-mobile.JPG)
 
 
 
