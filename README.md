@@ -204,14 +204,14 @@ Stylesheets passed validation including use of valid CSS custom properties.
 
 ## Deployment
 
-Site deployed using [GitHub Pages](https://pages.github.com/) at [Studio 13 - Interior Designers](https://github.com/gcarravi/interior-design)
+Site deployed using [GitHub Pages](https://pages.github.com/) at [Studio 13 - Interior Designers](https://gcarravi.github.io/interior-design/)
 
 -> **Steps to deploy a website using GitHub Pages**
 
-1. Open your github repositroy
+1. Open your github repository
 2. Open the settings
 3. Select 'Pages' from the side menu
-4. Select the branch you want to deply from the dropdown
+4. Select the branch you want to deploy from the dropdown menu
 
 
 
@@ -220,6 +220,8 @@ Site deployed using [GitHub Pages](https://pages.github.com/) at [Studio 13 - In
 1. Open the folder where you would like to clone the project
 2. Open a terminal window
 3. Enter the following command: <code>git clone https://github.com/gcarravi/interior-design.git</code>
+4. On the terminal start the service locally by executing the following command: <code>python -m http.server --bind 127.0.0.1</code>
+5. the command above will give you the following: <code>Serving HTTP on 127.0.0.1 port 8000 (http://127.0.0.1:8000/)</code>. Click on it to see the application running in your local environment.
 
 
 ## License
